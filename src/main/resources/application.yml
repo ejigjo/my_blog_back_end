@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/my_data
+    username: root
+    password: 781211
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+azure:
+  storage:
+    connectionString: "DefaultEndpointsProtocol=https;AccountName=ejigjo781211;AccountKey=ZBb3UTwNtRTkJyflIl08D5kGyPLEg8oDu8Q6QbJLyIl2C8FvirvU0MCUZhMWEg4JeQKFNDY6J8KZ+ASt2Hu/aA==;EndpointSuffix=core.windows.net"
+    containerName: "mylogs"
+
+
